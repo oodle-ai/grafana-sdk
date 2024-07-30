@@ -1,6 +1,6 @@
 <!--*- mode:markdown -*-->
 
-# Grafana SDK [![Go Report Card](https://goreportcard.com/badge/github.com/K-Phoen/sdk)](https://goreportcard.com/report/github.com/K-Phoen/sdk)
+# Grafana SDK [![Go Report Card](https://goreportcard.com/badge/github.com/oodle-ai/grafana-sdk)](https://goreportcard.com/report/github.com/oodle-ai/grafana-sdk)
 
 SDK for Go language offers a library for interacting with
 [Grafana](http://grafana.org) server from Go applications.  It
@@ -35,7 +35,7 @@ library is useful per se.
 * [`grabana`](https://github.com/K-Phoen/grabana): User-friendly Go library for building Grafana dashboards
 * [`dark`](https://github.com/K-Phoen/dark): (grafana) Dashboards As Resources in Kubernetes
 
-## Examples [![GoDoc](https://godoc.org/github.com/K-Phoen/sdk?status.svg)](https://godoc.org/github.com/K-Phoen/sdk)
+## Examples [![GoDoc](https://godoc.org/github.com/oodle-ai/grafana-sdk?status.svg)](https://godoc.org/github.com/oodle-ai/grafana-sdk)
 
 ```go
 	board := sdk.NewBoard("Sample dashboard title")
@@ -76,7 +76,7 @@ You need Grafana API key with _admin rights_ for using these utilities.
 
 Of course Go development environment should be set up first. Then:
 
-	go get github.com/K-Phoen/sdk
+	go get github.com/oodle-ai/grafana-sdk
 
 Dependency packages have included into
 distro. [govendor](https://github.com/kardianos/govendor) utility used
@@ -132,7 +132,7 @@ time for it. So I gladly accept new contributions. Drop an issue or
 Distributed under Apache v2.0. All rights belong to the SDK
 authors. There is no authors list yet, you can see the full list of
 the contributors in the git history. Official repository is
-https://github.com/K-Phoen/sdk
+https://github.com/oodle-ai/grafana-sdk
 
 ## Collection of Grafana tools in Golang
 

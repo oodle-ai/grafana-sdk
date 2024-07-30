@@ -23,8 +23,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"testing"
-
-	"github.com/K-Phoen/sdk"
 )
 
 func TestStackVal_UnmarshalJSON_GotTrue(t *testing.T) {

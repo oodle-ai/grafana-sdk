@@ -21,8 +21,6 @@ package sdk_test
 
 import (
 	"testing"
-
-	"github.com/K-Phoen/sdk"
 )
 
 func TestAddTags(t *testing.T) {

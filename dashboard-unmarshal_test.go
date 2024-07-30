@@ -24,7 +24,6 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

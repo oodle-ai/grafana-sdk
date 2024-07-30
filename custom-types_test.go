@@ -24,8 +24,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"testing"
-
-	"github.com/K-Phoen/sdk"
 )
 
 func TestIntString_Unmarshal(t *testing.T) {

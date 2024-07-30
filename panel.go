@@ -365,9 +365,10 @@ type (
 		Value interface{} `json:"value"`
 	}
 	FieldConfigOverride struct {
-		Matcher struct {
-			ID      string `json:"id"`
-			Options string `json:"options"`
+		SystemRef string `json:"__systemRef,omitempty"`
+		Matcher   struct {
+			ID      string      `json:"id"`
+			Options interface{} `json:"options"`
 		} `json:"matcher"`
 		Properties []FieldConfigOverrideProperty `json:"properties"`
 	}

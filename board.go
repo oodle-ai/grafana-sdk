@@ -129,6 +129,7 @@ type (
 		TagKeys                string         `json:"tagKeys"`
 		Type                   string         `json:"type"`
 		OodleSourceDashbaordId string         `json:"__oodle_source_dashboard_id"`
+		Hide                   bool           `json:"hide"`
 	}
 	// Link represents link to another dashboard or external weblink
 	Link struct {

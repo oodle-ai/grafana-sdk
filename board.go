@@ -130,6 +130,7 @@ type (
 		Type                   string         `json:"type"`
 		OodleSourceDashbaordId string         `json:"__oodle_source_dashboard_id"`
 		Hide                   bool           `json:"hide"`
+		UseValueForTime        string         `json:"useValueForTime,omitempty"`
 	}
 	// Link represents link to another dashboard or external weblink
 	Link struct {
